@@ -1,0 +1,58 @@
+
+header, footer{
+  width: 100%;
+  background-color: #201C3F;
+  padding: 20px;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  display: inline-block; /*inline <span></span>can mean things can be two the left or right of it*/
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 20px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+section, aside{
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+
+section{
+  width: 32%;
+}
+aside{
+  width: 13%;
+}
+.clearFix{
+  clear: both; /* clears left and right for floats */
+}
+
+/* section, aside{
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+section{
+  width: 65%;
+
+}
+
+aside {
+  width: 20%;
+} */
